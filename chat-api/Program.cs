@@ -14,30 +14,33 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // Remplace par ton URL Angular
+        policy.WithOrigins("http://localhost:4200", "http://127.0.0.1:4200") // Autoriser Angular
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
     });
 });
 
+// SignalR
+builder.Services.AddSignalR();
 
-// Add services to the container.
-
+// Base de données
 builder.Services.AddDbContext<ChatDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Services
 builder.Services.AddScoped<AuthService>();
 
-
+// Contrôleurs
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Chat API", Version = "v1" });
 
-    // Ajout du support JWT
+    // Ajout du support JWT dans Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme (Example: 'Bearer eyJhbGci...')",
@@ -63,8 +66,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-
-
+// Authentification JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -78,17 +80,27 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(key)
         };
+
+        // Permet l'utilisation de JWT avec SignalR (auth via query string ou header Authorization)
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var accessToken = context.Request.Query["access_token"];
+
+                var path = context.HttpContext.Request.Path;
+                if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/chatHub"))
+                {
+                    context.Token = accessToken;
+                }
+                return Task.CompletedTask;
+            }
+        };
     });
-
-builder.Services.AddSignalR();
-
 
 var app = builder.Build();
 
-app.MapHub<ChatHub>("/chatHub");
-
-
-// Configure the HTTP request pipeline.
+// Environnement développement => Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -97,10 +109,17 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseCors("AllowFrontend");
 
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapHub<ChatHub>("/chatHub");
+});
 
 app.Run();

@@ -1,0 +1,13 @@
+<div class="sidebar-header">
+  <img [src]="avatarUrl" alt="Avatar" class="avatar">
+  <span class="username">{{ username }}</span>
+</div>
+
+<ul class="conversation-list">
+  <li [class.active]="selectedConversation === 'public'" (click)="select('public')">🌍 Public</li>
+  <li *ngFor="let user of users" 
+    [class.active]="selectedConversation === user"
+    (click)="select(user)">
+    💬 {{ user }}
+  </li>
+</ul>

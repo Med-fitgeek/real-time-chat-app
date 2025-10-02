@@ -3,56 +3,67 @@
   "WorkspaceRootPath": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\utils\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:utils\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\utils\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:utils\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\chatapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:chatapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\data\\chatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:data\\chatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-client\\src\\app\\chat\\chat\\chat.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|c:\\users\\nndon\\projects\\real-time-chat-app\\chat-api\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48CCAF-F6CD-4739-AAAF-4B3720853368}|ChatApp.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,7 +91,7 @@
         },
         {
           "DockedWidth": 1268,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,155 +102,116 @@
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T12:41:55.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-20T12:17:02.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T12:50:00.59Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Utils\\JwtHelper.cs",
               "RelativeDocumentMoniker": "Utils\\JwtHelper.cs",
               "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Utils\\JwtHelper.cs",
               "RelativeToolTip": "Utils\\JwtHelper.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:44:31.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:39:49.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAmwFcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T12:09:00.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-20T12:17:02.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T11:51:25.049Z",
+              "Title": "ChatApp.http",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\ChatApp.http",
+              "RelativeDocumentMoniker": "ChatApp.http",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\ChatApp.http",
+              "RelativeToolTip": "ChatApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-24T11:24:55.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:41:55.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Utils\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Utils\\PasswordHasher.cs",
               "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Utils\\PasswordHasher.cs",
               "RelativeToolTip": "Utils\\PasswordHasher.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T12:35:57.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Data\\ChatDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ChatDbContext.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Data\\ChatDbContext.cs",
-              "RelativeToolTip": "Data\\ChatDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T12:05:26.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T12:00:35.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T12:35:00.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "Models\\Message.cs",
-              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\Message.cs",
-              "RelativeToolTip": "Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T12:03:17.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -262,6 +234,81 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:43:55.985Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Data\\ChatDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ChatDbContext.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Data\\ChatDbContext.cs",
+              "RelativeToolTip": "Data\\ChatDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:05:26.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:35:00.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T11:51:25.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "chat.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-client\\src\\app\\chat\\chat\\chat.component.spec.ts",
+              "RelativeDocumentMoniker": "..\\chat-client\\src\\app\\chat\\chat\\chat.component.spec.ts",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-client\\src\\app\\chat\\chat\\chat.component.spec.ts",
+              "RelativeToolTip": "..\\chat-client\\src\\app\\chat\\chat\\chat.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-22T17:43:05.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:00:35.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\nndon\\projects\\real-time-chat-app\\chat-api\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:03:17.396Z"
             }
           ]
         }

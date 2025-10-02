@@ -1,0 +1,16 @@
+<div class="chat-layout">
+  <div class="sidebar">
+    <app-chat-sidebar-component
+      [users]="connectedUsers"
+      (selectConversation)="onSelectConversation($event)">
+    </app-chat-sidebar-component>
+  </div>
+
+  <div class="chat-content">
+    <app-chat *ngIf="currentConversation === 'public'"></app-chat>
+    <app-chat-private-component
+      *ngIf="currentConversation !== 'public'"
+      [recipient]="currentConversation">
+    </app-chat-private-component>
+  </div>
+</div>

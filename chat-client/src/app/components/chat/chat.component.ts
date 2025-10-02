@@ -1,11 +1,12 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { ChatService } from '../../services/chat.service';
 import { FormsModule, NgModel } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-chat',
   standalone: true,
-  imports: [FormsModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './chat.component.html',
   styleUrl: './chat.component.scss'
 })
@@ -17,7 +18,7 @@ export class ChatComponent implements OnInit {
   constructor(private chatService: ChatService) {}
 
   ngOnInit(): void {
-    this.chatService.startConnection();
+    this.chatService.startConnection(localStorage.getItem("auth_token") || "");
     this.chatService.addReceiveMessageListener((user, message) => {
       this.messages.push({ user, message });
     });
