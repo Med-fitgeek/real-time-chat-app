@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
 import { BehaviorSubject } from 'rxjs';
-import { environment } from '../../../../environment';
+import { environment } from '../../../environments/environment';
 
 export interface PriceUpdate {
   symbol: string;
